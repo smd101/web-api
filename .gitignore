@@ -90,3 +90,6 @@ buildNumber.properties
 *.xhtml
 
 # End of https://www.gitignore.io/api/web,java,maven,visualstudiocode
+
+### H2 database ###
+/h2db/
