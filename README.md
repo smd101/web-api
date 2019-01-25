@@ -1,6 +1,6 @@
 VS Code + Spring Boot + Maven + JPA + H2 で最速 Web API 環境の構築
 ==========================
-VS Code + Spring Boot で、Web API 環境構築のサンプルを作成しました。各 Step 毎にブランチを作成し、ブログの方で簡単な説明を記載しています。
+VS Code + Spring Boot で、Web API 環境構築のサンプルを作成しました。各 Step 毎にブランチを作成してあります。
 
 
 事前設定
@@ -28,6 +28,7 @@ project の読み込み
 ブランチの説明
 --------------
 - step1-initialize-spring-web-project
+[VS Code + Spring Boot + Maven + JPA + H2 で最速 Web API 環境の構築（Step1）](http://kusamakura.hatenablog.com/entry/vscode_springboot_maven_jpa_h2_webapi_step1)
 - step2-add-h2-database
 - step3-add-jpa
 - step4-add-swagger
