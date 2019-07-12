@@ -28,6 +28,13 @@ project の読み込み
 --------------
 - step1-initialize-spring-web-project  
   [VS Code + Spring Boot + Maven + JPA + H2 で最速 Web API 環境の構築（Step1）](http://kusamakura.hatenablog.com/entry/vscode_springboot_maven_jpa_h2_webapi_step1)
-- step2-add-h2-database
-- step3-add-jpa
-- step4-add-swagger
+- step2-add-h2-database  
+[VS Code + Spring Boot + Maven + JPA + H2 で最速 Web API 環境の構築（Step2）](http://kusamakura.hatenablog.com/entry/vscode_springboot_maven_jpa_h2_webapi_step2)
+- step3-add-jpa  
+[VS Code + Spring Boot + Maven + JPA + H2 で最速 Web API 環境の構築（Step3）
+](http://kusamakura.hatenablog.com/entry/vscode_springboot_maven_jpa_h2_webapi_step3)
+- step4-add-swagger  
+[VS Code + Spring Boot + Maven + JPA + H2 で最速 Web API 環境の構築（Step4）
+](http://kusamakura.hatenablog.com/entry/vscode_springboot_maven_jpa_h2_webapi_step4)
+- multi-datasource（おまけ）  
+複数 DataSource を WebAPI から切り分けて使用
