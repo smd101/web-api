@@ -1,0 +1,19 @@
+# h2 for debug tool
+spring.h2.console:
+  enabled: true
+  path: /h2-console
+  settings.web-allow-others: true
+
+# datasource1
+spring.datasource.data1:
+  driver-class-name: org.h2.Driver
+  url: jdbc:h2:./h2db/sandbox
+  username: dev
+  password: dev
+
+# datasource2
+spring.datasource.data2:
+  driver-class-name: org.h2.Driver
+  url: jdbc:h2:./h2db/sandbox2
+  username: dev
+  password: dev

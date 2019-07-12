@@ -1,5 +1,7 @@
 package com.example.sandbox.controller;
 
+import com.example.sandbox.config.SchemaContextHolder;
+import com.example.sandbox.config.SchemaType;
 import com.example.sandbox.entity.Product;
 import com.example.sandbox.service.ProductService;
 
@@ -41,4 +43,14 @@ public class ProductController {
 	public void deleteProduct(@PathVariable("id") Long id) {
 		productService.delete(id);
 	}
+
+	@GetMapping("findall")
+	public List<Product> findall(@RequestParam("ds") String ds){
+			if(ds.equals("ds1")){
+					SchemaContextHolder.setSchemaType(SchemaType.DATA1);
+			}else{
+					SchemaContextHolder.setSchemaType(SchemaType.DATA2);
+			}
+			return getProducts();
+	}	
 }
